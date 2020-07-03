@@ -1,4 +1,14 @@
-$font: "Helvetica Neue", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+$font: "Helvetica Neue",
+-apple-system,
+BlinkMacSystemFont,
+'Segoe UI',
+Roboto,
+Oxygen,
+Ubuntu,
+Cantarell,
+'Open Sans',
+'Helvetica Neue',
+sans-serif;
 
 // Colours
 $white: #fff;
@@ -6,9 +16,12 @@ $black: #000;
 $maroon: #83333e;
 $off-white: #f2f4f5;
 
-html, body {
+html,
+body {
     font-family: $font;
     font-size: 1em;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -39,7 +52,7 @@ header {
     position: absolute;
     top: 0px;
     z-index: 10;
-    
+
     .inner-header {
         display: flex;
         align-items: center;
@@ -105,6 +118,172 @@ header {
                 font-size: 4.4em;
                 letter-spacing: 36px;
             }
+        }
+
+        .main-image {
+            width: 536px;
+            margin: 0 auto;
+
+            @media (max-width: 1440px) {
+                width: 436px;
+            }
+        }
+
+        .side-image {
+            width: 260px;
+            position: absolute;
+
+            @media (max-width: 1440px) {
+                width: 208px;
+            }
+
+            &.left {
+                left: 168px;
+                top: 12px;
+
+                @media (max-width: 1440px) {
+                    left: 128px;
+                }
+            }
+
+            &.right {
+                right: 168px;
+                bottom: 12px;
+
+                @media (max-width: 1440px) {
+                    right: 128px;
+                }
+            }
+        }
+    }
+
+    .scroll {
+        font-weight: bolder;
+        font-size: .875em;
+        letter-spacing: 1.5px;
+        color: $black;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 48px;
+    }
+
+    .fixed-misc {
+        position: fixed;
+        top: 50%;
+        right: -48px;
+        transform: rotate(-90deg);
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 0.875em;
+        letter-spacing: 1.5px;
+        color: $white;
+        mix-blend-mode: difference;
+        z-index: 8;
+
+        @media (max-width: 1440px) {
+            right: -112px;
+        }
+    }
+}
+
+// About blurb
+.about-blurb {
+    padding: 48px 0;
+    background: $white;
+    position: relative;
+
+    .inner-blurb {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .content {
+            width: 33%;
+
+            @media (max-width: 1440px) {
+                width: 40%;
+            }
+
+            h3 {
+                font-weight: bolder;
+                text-transform: uppercase;
+                font-size: 1.8em;
+                letter-spacing: 1.5px;
+                margin: 0;
+            }
+
+            p {
+                font-size: 1em;
+                line-height: 2em;
+                font-weight: 300;
+                margin: 40px 0 72px;
+            }
+
+            .btn-row {
+                a {
+                    font-weight: bolder;
+                    font-size: 0.875em;
+                    letter-spacing: 1.5px;
+                    color: $black;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .images {
+            width: 50%;
+            height: 1000px;
+            position: relative;
+            z-index: 7;
+
+            @media (max-width: 1440px) {
+                height: 800px;
+            }
+
+            .top-right {
+                position: absolute;
+                width: 460px;
+                top: 0;
+                right: 0;
+                z-index: 4;
+
+                @media (max-width: 1440px) {
+                    width: 360px;
+                }
+            }
+
+            .bottom-left {
+                position: absolute;
+                width: 410px;
+                left: 0;
+                bottom: 0;
+
+                @media (max-width: 1440px) {
+                    width: 310px;
+                }
+            }
+        }
+    }
+
+    .black-box {
+        background: $black;
+        height: 418px;
+        width: 836px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+
+        @media (max-width: 1440px) {
+            width: 636px;
+            height: 340px;
+        }
+
+        &.overlay {
+            z-index: 7;
+            background: $maroon;
+            mix-blend-mode: overlay;
         }
     }
 }
