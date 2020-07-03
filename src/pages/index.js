@@ -1,7 +1,7 @@
 import React from "react"
 import "../styles/styles.scss"
 
-import Scrollbar from "smooth-scrollbar"
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 // Import components
 import Header from "../components/header"
