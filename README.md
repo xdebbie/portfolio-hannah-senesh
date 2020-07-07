@@ -12,7 +12,7 @@
 </p>
 
 <h1 align="center">
-  Hannah Senesh's test portfolio page on Gatsby/GraphQL/React
+  Hannah Senesh's test portfolio page
 </h1>
 
 This is my first test portfolio built on Gatsby and React. It was my first experience building a blazing fast webpage using Javascript to insert HTML elements. I keep using SASS as it integrates even better with React and Gatsby.
