@@ -1,11 +1,18 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="https://gatsby-portfolio-omega.vercel.app">
+    <img alt="Vercel" src="https://badgen.net/badge/vercel/deployed/ff4366/?icon=zeit&scale=1.1" />
   </a>
+    <a href="https://gatsby-portfolio-omega.vercel.app">
+    <img alt="Netlify" src="https://badgen.net/badge/netlify/deployed/ff4366/?icon=packagephobia&scale=1.1" />
+  </a>
+  <img alt="Netlify" src="https://badgen.net/badge/code/react.js/930075/?icon=terminal&scale=1.2" />
+  <img alt="Netlify" src="https://badgen.net/badge/code/gatsby/930075/?icon=terminal&scale=1.2" />
+  <img alt="Netlify" src="https://badgen.net/badge/code/sass/930075/?icon=terminal&scale=1.2" />
 </p>
+
 <h1 align="center">
-  Myriam Epstein's test portfolio page on Gatsby/GraphQL/React
+  Hannah Senesh's test portfolio page on Gatsby/GraphQL/React
 </h1>
 
 This is my first test portfolio built on Gatsby and React. It was my first experience building a blazing fast webpage using Javascript to insert HTML elements. I keep using SASS as it integrates even better with React and Gatsby.
@@ -55,7 +62,5 @@ A quick look at the top-level files and directories in this project, including t
 ## 💫 Deployment
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://gatsby-portfolio-omega.vercel.app)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
