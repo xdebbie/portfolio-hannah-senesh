@@ -18,7 +18,6 @@
   <img alt="GitHub open issues" src="https://badgen.net/github/open-issues/xdebbie/portfolio-hannah-senesh/?color=ff9800&icon=git&scale=1.2" />
   <img alt="GitHub license" src="https://badgen.net/github/license/xdebbie/portfolio-hannah-senesh/?color=6bfd55&icon=github&scale=1.2" />
   
-
 </p>
 
 <h1 align="center">

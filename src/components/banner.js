@@ -51,7 +51,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="fixed-misc">
-                Visual Artist and Photographer
+              Bildkonstnär och fotograf 
             </div>
         </div>
     )
