@@ -5,21 +5,21 @@ import Img from "gatsby-image"
 const Banner = () => {
     const data = useStaticQuery(graphql`
     query {
-      milkshake: file(relativePath: { eq: "milkshake.png" }) {
+      poppinShades: file(relativePath: { eq: "poppin-shades.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      sonic: file(relativePath: { eq: "sonic.png" }) {
+      diamonds: file(relativePath: { eq: "diamonds.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      pop: file(relativePath: { eq: "pop.png" }) {
+      orange: file(relativePath: { eq: "sexy-orange.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
@@ -34,16 +34,16 @@ const Banner = () => {
             <div className="container">
                 <div className="row">
                     <div className="side-image left">
-                        <Img fluid={data.sonic.childImageSharp.fluid} />
+                        <Img fluid={data.diamonds.childImageSharp.fluid} />
                     </div>
                     <div className="main-text">
                         Hannah Senesh
                     </div>
                     <div className="main-image">
-                        <Img fluid={data.milkshake.childImageSharp.fluid} />
+                        <Img fluid={data.poppinShades.childImageSharp.fluid} />
                     </div>
                     <div className="side-image right">
-                        <Img fluid={data.pop.childImageSharp.fluid} />
+                        <Img fluid={data.orange.childImageSharp.fluid} />
                     </div>
                 </div>
                 <div className="scroll">
@@ -51,7 +51,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="fixed-misc">
-              Bildkonstnär och fotograf
+                Visual Artist and Photographer
             </div>
         </div>
     )
