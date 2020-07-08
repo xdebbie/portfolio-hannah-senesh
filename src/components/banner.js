@@ -5,21 +5,21 @@ import Img from "gatsby-image"
 const Banner = () => {
     const data = useStaticQuery(graphql`
     query {
-      poppinShades: file(relativePath: { eq: "poppin-shades.png" }) {
+      milkshake: file(relativePath: { eq: "milkshake.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      diamonds: file(relativePath: { eq: "diamonds.png" }) {
+      bowling: file(relativePath: { eq: "bowling.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      orange: file(relativePath: { eq: "sexy-orange.png" }) {
+      pop: file(relativePath: { eq: "pop.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
@@ -34,16 +34,16 @@ const Banner = () => {
             <div className="container">
                 <div className="row">
                     <div className="side-image left">
-                        <Img fluid={data.diamonds.childImageSharp.fluid} />
+                        <Img fluid={data.bowling.childImageSharp.fluid} />
                     </div>
                     <div className="main-text">
                         Hannah Senesh
                     </div>
                     <div className="main-image">
-                        <Img fluid={data.poppinShades.childImageSharp.fluid} />
+                        <Img fluid={data.milkshake.childImageSharp.fluid} />
                     </div>
                     <div className="side-image right">
-                        <Img fluid={data.orange.childImageSharp.fluid} />
+                        <Img fluid={data.pop.childImageSharp.fluid} />
                     </div>
                 </div>
                 <div className="scroll">

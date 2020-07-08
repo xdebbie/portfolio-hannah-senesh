@@ -13,7 +13,7 @@ sans-serif;
 // Colours
 $white: #fff;
 $black: #000;
-$maroon: #83333e;
+$purple: #930075;
 $off-white: #f2f4f5;
 
 html,
@@ -282,7 +282,7 @@ header {
 
         &.overlay {
             z-index: 7;
-            background: $maroon;
+            background: $purple;
             mix-blend-mode: overlay;
         }
     }

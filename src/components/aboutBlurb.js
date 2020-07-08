@@ -6,14 +6,14 @@ import { Link } from "gatsby"
 const AboutBlurb = () => {
     const data = useStaticQuery(graphql`
     query {
-      flower: file(relativePath: { eq: "flower-mouth.png" }) {
+      rollers: file(relativePath: { eq: "rollers.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      fist: file(relativePath: { eq: "fist.png" }) {
+      sonic: file(relativePath: { eq: "sonic.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
@@ -36,10 +36,10 @@ const AboutBlurb = () => {
                   </div>
                   <div className="images">
                     <div className="top-right">
-                      <Img fluid={data.fist.childImageSharp.fluid}/>
+                      <Img fluid={data.sonic.childImageSharp.fluid}/>
                     </div>
                     <div className="bottom-left">
-                      <Img fluid={data.flower.childImageSharp.fluid}/>
+                      <Img fluid={data.rollers.childImageSharp.fluid}/>
                     </div>
                   </div>
                 </div>
