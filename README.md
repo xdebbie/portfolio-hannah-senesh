@@ -1,22 +1,22 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://gatsby-portfolio-omega.vercel.app">
+  <a href="https://portfolio-hannah-senesh.vercel.app">
     <img alt="Vercel" src="https://badgen.net/badge/vercel/deployed/ff4366/?icon=zeit&scale=1.1" />
   </a>
-    <a href="https://hannah-senesh.netlify.app/">
+    <a href="https://portfolio-hannah-senesh.netlify.app">
     <img alt="Netlify" src="https://badgen.net/badge/netlify/deployed/ff4366/?icon=packagephobia&scale=1.1" />
   </a>
-  <img alt="Codeclimate lines of code" src="https://badgen.net/codeclimate/loc/xdebbie/gatsby-portfolio/?color=84004e&icon=codeclimate&scale=1.2" />
-  <img alt="Codeclimate technical debt" src="https://badgen.net/codeclimate/tech-debt/xdebbie/gatsby-portfolio/?color=84004e&icon=codeclimate&scale=1.2" />
+  <img alt="Codeclimate lines of code" src="https://badgen.net/codeclimate/loc/xdebbie/portfolio-hannah-senesh/?color=84004e&icon=codeclimate&scale=1.2" />
+  <img alt="Codeclimate technical debt" src="https://badgen.net/codeclimate/tech-debt/xdebbie/portfolio-hannah-senesh/?color=84004e&icon=codeclimate&scale=1.2" />
   <img alt="Deepscan grade" src="https://badgen.net/deepscan/grade/team/10083/project/12769/branch/202170?color=84004e&icon=deepscan&scale=1.2" />
   <img alt="Code" src="https://badgen.net/badge/code/javascript/purple/?icon=terminal&scale=1.2" />
   <img alt="Code" src="https://badgen.net/badge/code/react.js/purple/?icon=terminal&scale=1.2" />
   <img alt="Code" src="https://badgen.net/badge/code/gatsby/purple/?icon=terminal&scale=1.2" />
   <img alt="Code" src="https://badgen.net/badge/code/sass/purple/?icon=terminal&scale=1.2" />
-  <img alt="GitHub commits" src="https://badgen.net/github/commits/xdebbie/gatsby-portfolio/?color=2de2e6&icon=git&scale=1.2" />
-  <img alt="GitHub last commit" src="https://badgen.net/github/last-commit/xdebbie/gatsby-portfolio/?color=2de2e6&icon=git&scale=1.2" />
-  <img alt="GitHub open issues" src="https://badgen.net/github/open-issues/xdebbie/gatsby-portfolio/?color=ff9800&icon=git&scale=1.2" />
-  <img alt="GitHub license" src="https://badgen.net/github/license/xdebbie/gatsby-portfolio/?color=6bfd55&icon=github&scale=1.2" />
+  <img alt="GitHub commits" src="https://badgen.net/github/commits/xdebbie/portfolio-hannah-senesh/?color=2de2e6&icon=git&scale=1.2" />
+  <img alt="GitHub last commit" src="https://badgen.net/github/last-commit/xdebbie/portfolio-hannah-senesh/?color=2de2e6&icon=git&scale=1.2" />
+  <img alt="GitHub open issues" src="https://badgen.net/github/open-issues/xdebbie/portfolio-hannah-senesh/?color=ff9800&icon=git&scale=1.2" />
+  <img alt="GitHub license" src="https://badgen.net/github/license/xdebbie/portfolio-hannah-senesh/?color=6bfd55&icon=github&scale=1.2" />
   
 
 </p>

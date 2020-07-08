@@ -37,7 +37,7 @@ const Banner = () => {
                         <Img fluid={data.diamonds.childImageSharp.fluid} />
                     </div>
                     <div className="main-text">
-                        Lucie Parker
+                        Hannah Senesh
                     </div>
                     <div className="main-image">
                         <Img fluid={data.poppinShades.childImageSharp.fluid} />
