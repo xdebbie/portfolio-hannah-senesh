@@ -3,12 +3,22 @@
   <a href="https://gatsby-portfolio-omega.vercel.app">
     <img alt="Vercel" src="https://badgen.net/badge/vercel/deployed/ff4366/?icon=zeit&scale=1.1" />
   </a>
-    <a href="https://gatsby-portfolio-omega.vercel.app">
+    <a href="https://hannah-senesh.netlify.app/">
     <img alt="Netlify" src="https://badgen.net/badge/netlify/deployed/ff4366/?icon=packagephobia&scale=1.1" />
   </a>
-  <img alt="Netlify" src="https://badgen.net/badge/code/react.js/930075/?icon=terminal&scale=1.2" />
-  <img alt="Netlify" src="https://badgen.net/badge/code/gatsby/930075/?icon=terminal&scale=1.2" />
-  <img alt="Netlify" src="https://badgen.net/badge/code/sass/930075/?icon=terminal&scale=1.2" />
+  <img alt="Codeclimate lines of code" src="https://badgen.net/codeclimate/loc/xdebbie/gatsby-portfolio/?color=84004e&icon=codeclimate&scale=1.2" />
+  <img alt="Codeclimate technical debt" src="https://badgen.net/codeclimate/tech-debt/xdebbie/gatsby-portfolio/?color=84004e&icon=codeclimate&scale=1.2" />
+  <img alt="Deepscan grade" src="https://badgen.net/deepscan/grade/team/10083/project/12769/branch/202170?color=84004e&icon=deepscan&scale=1.2" />
+  <img alt="Code" src="https://badgen.net/badge/code/javascript/purple/?icon=terminal&scale=1.2" />
+  <img alt="Code" src="https://badgen.net/badge/code/react.js/purple/?icon=terminal&scale=1.2" />
+  <img alt="Code" src="https://badgen.net/badge/code/gatsby/purple/?icon=terminal&scale=1.2" />
+  <img alt="Code" src="https://badgen.net/badge/code/sass/purple/?icon=terminal&scale=1.2" />
+  <img alt="GitHub commits" src="https://badgen.net/github/commits/xdebbie/gatsby-portfolio/?color=2de2e6&scale=1.2" />
+  <img alt="GitHub last commit" src="https://badgen.net/github/last-commit/xdebbie/gatsby-portfolio/?color=2de2e6&scale=1.2" />
+  <img alt="GitHub open issues" src="https://badgen.net/github/open-issues/xdebbie/gatsby-portfolio/?color=ff9800&scale=1.2" />
+  <img alt="GitHub license" src="https://badgen.net/github/license/xdebbie/gatsby-portfolio/?color=6bfd55&scale=1.2" />
+  
+
 </p>
 
 <h1 align="center">
@@ -58,9 +68,5 @@ A quick look at the top-level files and directories in this project, including t
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
 12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 💫 Deployment
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
