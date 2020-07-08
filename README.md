@@ -13,10 +13,10 @@
   <img alt="Code" src="https://badgen.net/badge/code/react.js/purple/?icon=terminal&scale=1.2" />
   <img alt="Code" src="https://badgen.net/badge/code/gatsby/purple/?icon=terminal&scale=1.2" />
   <img alt="Code" src="https://badgen.net/badge/code/sass/purple/?icon=terminal&scale=1.2" />
-  <img alt="GitHub commits" src="https://badgen.net/github/commits/xdebbie/gatsby-portfolio/?color=2de2e6&scale=1.2" />
-  <img alt="GitHub last commit" src="https://badgen.net/github/last-commit/xdebbie/gatsby-portfolio/?color=2de2e6&scale=1.2" />
-  <img alt="GitHub open issues" src="https://badgen.net/github/open-issues/xdebbie/gatsby-portfolio/?color=ff9800&scale=1.2" />
-  <img alt="GitHub license" src="https://badgen.net/github/license/xdebbie/gatsby-portfolio/?color=6bfd55&scale=1.2" />
+  <img alt="GitHub commits" src="https://badgen.net/github/commits/xdebbie/gatsby-portfolio/?color=2de2e6&icon=git&scale=1.2" />
+  <img alt="GitHub last commit" src="https://badgen.net/github/last-commit/xdebbie/gatsby-portfolio/?color=2de2e6&icon=git&scale=1.2" />
+  <img alt="GitHub open issues" src="https://badgen.net/github/open-issues/xdebbie/gatsby-portfolio/?color=ff9800&icon=git&scale=1.2" />
+  <img alt="GitHub license" src="https://badgen.net/github/license/xdebbie/gatsby-portfolio/?color=6bfd55&icon=github&scale=1.2" />
   
 
 </p>
@@ -25,7 +25,7 @@
   Hannah Senesh's test portfolio page
 </h1>
 
-This is my first test portfolio built on Gatsby and React. It was my first experience building a blazing fast webpage using Javascript to insert HTML elements. I keep using SASS as it integrates even better with React and Gatsby.
+This is my first test portfolio built on Gatsby and React. It was my first experience building a blazing fast webpage using Javascript to insert HTML elements. I keep using SASS as it integrates even better with React and Gatsby, and Gatsby is also really great at rendering images which contributes to the page speed.
 
 ## 🦙 Project structure
 
