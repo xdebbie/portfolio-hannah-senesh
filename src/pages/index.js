@@ -6,6 +6,7 @@ import Header from "../components/header"
 import Banner from "../components/banner"
 import AboutBlurb from "../components/aboutBlurb"
 import VideoSection from "../components/videoSection"
+import Footer from "../components/footer"
 
 const IndexPage = () => (
   <div>
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <Banner />
     <AboutBlurb />
     <VideoSection />
+    <Footer />
   </div>
 )
 
