@@ -337,13 +337,14 @@ header {
     }
 }
 
-//footer
+// Footer
 footer {
     .featured-companies {
       background: $black;
-      height: 200px;
+      height: 160px;
       display: flex;
       align-items: center;
+
       .container {
         ul {
           display: flex;
@@ -351,8 +352,10 @@ footer {
           padding: 0;
           align-items: center;
           flex-direction: row;
+
           li {
             text-align: center;
+
             img {
               width: 50%;
             }
@@ -360,15 +363,18 @@ footer {
         }
       }
     }
+
     .footer {
       background: $off-white;
       height: 80px;
+
       .inner {
         padding: 0 120px;
         height: 80px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
         .socials {
           a {
             margin: 0 8px;
