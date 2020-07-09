@@ -1,18 +1,18 @@
 import React from "react"
 import "../styles/styles.scss"
 
-import scrollTo from 'gatsby-plugin-smoothscroll';
-
 // Import components
 import Header from "../components/header"
 import Banner from "../components/banner"
 import AboutBlurb from "../components/aboutBlurb"
+import VideoSection from "../components/videoSection"
 
 const IndexPage = () => (
   <div>
     <Header />
     <Banner />
     <AboutBlurb />
+    <VideoSection />
   </div>
 )
 

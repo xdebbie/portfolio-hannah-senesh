@@ -19,7 +19,7 @@ const Banner = () => {
           }
         }
       }
-      pop: file(relativePath: { eq: "pop.png" }) {
+      arcade: file(relativePath: { eq: "arcade.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
@@ -43,7 +43,7 @@ const Banner = () => {
                         <Img fluid={data.milkshake.childImageSharp.fluid} />
                     </div>
                     <div className="side-image right">
-                        <Img fluid={data.pop.childImageSharp.fluid} />
+                        <Img fluid={data.arcade.childImageSharp.fluid} />
                     </div>
                 </div>
                 <div className="scroll">
