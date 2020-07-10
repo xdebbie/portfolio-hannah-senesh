@@ -374,7 +374,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        
+
         .socials {
           a {
             margin: 0 8px;
@@ -382,4 +382,76 @@ footer {
         }
       }
     }
-  }
+}
+
+// About page
+.about {
+    display: flex;
+    align-items: center;
+    background-color: $white;
+    height: 100vh;
+
+    .container {
+        width: 1620px;
+        margin: 0;
+        position: relative;
+        display: flex;
+
+        .hannah-image {
+            width: 580px;
+            margin: 0 0 0 20px;
+
+            @media (max-width: 1440px) {
+                width: 536px;
+            }
+        }
+
+        .main-text {
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 12px;
+            font-weight: bolder;
+            color: $white;
+            width: 100%;
+            margin: 0 24px;
+            mix-blend-mode: difference;
+            z-index: 9;
+
+            @media (max-width: 1440px) {
+                font-size: 2em;
+                letter-spacing: 6px;
+                left: 58%;
+            }
+        }
+
+        p {
+            width: 70%;
+            margin: 24px;
+            font-size: 1.2em;
+            line-height: 2em;
+            font-weight: 300;
+
+            @media (max-width: 1440px) {
+                font-size: 1em;
+            }
+        }
+    }
+
+    .fixed-misc {
+        position: fixed;
+        top: 50%;
+        right: -48px;
+        transform: rotate(-90deg);
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 0.875em;
+        letter-spacing: 1.5px;
+        color: $white;
+        mix-blend-mode: difference;
+        z-index: 8;
+
+        @media (max-width: 1440px) {
+            right: -112px;
+        }
+    }
+}
