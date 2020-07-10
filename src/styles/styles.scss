@@ -365,20 +365,20 @@ footer {
     }
 
     .footer {
-      background: $off-white;
-      height: 80px;
+        background: $off-white;
+        height: 80px;
 
       .inner {
-        padding: 0 120px;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+            padding: 0 120px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
 
         .socials {
-          a {
-            margin: 0 8px;
-          }
+            a {
+                margin: 0 8px;
+            }
         }
       }
     }
@@ -454,4 +454,79 @@ footer {
             right: -112px;
         }
     }
+}
+
+// Work page
+.gallery {
+    margin: 5em 20px 0 20px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 16vw;
+    grid-gap: 4px;
+
+    img {
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+        
+        &:hover {
+            filter: blur(2px);
+            transition: all ease 0.3s;
+            cursor: pointer;
+        }
+    }
+
+    :nth-child(12n + 2) {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    :nth-child(12n + 3) {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+
+    :nth-child(12n + 4) {
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+
+    :nth-child(12n + 5) {
+        grid-column: span 1;
+        grid-row: span 3;
+    }
+
+    :nth-child(12n + 6) {
+        grid-column: span 1;
+        grid-row: span 2;
+    }  
+
+    :nth-child(12n + 7) {
+        grid-column: span 1;
+        grid-row: span 3;
+    } 
+
+    :nth-child(12n + 8) {
+        grid-column: span 1;
+        grid-row: span 2;
+    } 
+
+    :nth-child(12n + 9) {
+        grid-column: span 1;
+        grid-row: span 4;
+    } 
+
+    :nth-child(12n + 10) {
+        grid-column: span 1;
+        grid-row: span 3;
+    } 
+
+    :nth-child(12n + 11) {
+        grid-column: span 1;
+        grid-row: span 3;
+    } 
+
+    :nth-child(12n + 12) {
+        grid-column: span 1;
+        grid-row: span 2;
+    } 
 }
