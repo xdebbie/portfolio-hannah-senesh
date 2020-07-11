@@ -5,9 +5,10 @@ const VideoSection = () => {
         <div className="video-section">
             <div className="container">
                 <div className="video-player">
-                    <video poster="https://scontent-tpe1-1.cdninstagram.com/v/t50.2886-16/101923339_1261729504160625_2290205861455171247_n.mp4?_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=eQOBm0hdg8UAX-oI-iC&oe=5F08E2FA&oh=0bf34d1e24325f48ad8c132de5051da6" controls type="video/mp4" src="https://scontent-tpe1-1.cdninstagram.com/v/t50.2886-16/101923339_1261729504160625_2290205861455171247_n.mp4?_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=eQOBm0hdg8UAX-oI-iC&oe=5F08E2FA&oh=0bf34d1e24325f48ad8c132de5051da6" />
-                    <video poster="https://scontent-tpe1-1.cdninstagram.com/v/t50.2886-16/106833460_3057639530983959_5335055202531272688_n.mp4?_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=fIhoYp71fT8AX_waGN9&oe=5F0947BB&oh=d4df8132fe1c4b2afb8d74f96b8e051d" controls type="video/mp4" src="https://scontent-tpe1-1.cdninstagram.com/v/t50.2886-16/106833460_3057639530983959_5335055202531272688_n.mp4?_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=103&_nc_ohc=fIhoYp71fT8AX_waGN9&oe=5F0947BB&oh=d4df8132fe1c4b2afb8d74f96b8e051d" />
+                    <video controls src="../videos/hardtimes.mp4" type="video/mp4" />
+                    <video controls src="../videos/lana.mp4" type="video/mp4" />
                 </div>
+                
                 <div className="video-content">
                     <div className="title">
                         <h3>Låt oss prata om det nu</h3>

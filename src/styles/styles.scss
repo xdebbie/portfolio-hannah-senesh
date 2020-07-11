@@ -475,13 +475,18 @@ footer {
         }
     }
 
+    :nth-child(12n + 1) {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
     :nth-child(12n + 2) {
         grid-column: span 2;
         grid-row: span 2;
     }
 
     :nth-child(12n + 3) {
-        grid-column: span 1;
+        grid-column: span 2;
         grid-row: span 2;
     }
 
@@ -522,7 +527,7 @@ footer {
 
     :nth-child(12n + 11) {
         grid-column: span 1;
-        grid-row: span 3;
+        grid-row: span 2;
     } 
 
     :nth-child(12n + 12) {

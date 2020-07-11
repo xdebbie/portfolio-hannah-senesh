@@ -13,6 +13,7 @@
   <img alt="Code" src="https://badgen.net/badge/code/react.js/purple/?icon=terminal&scale=1.2" />
   <img alt="Code" src="https://badgen.net/badge/code/gatsby/purple/?icon=terminal&scale=1.2" />
   <img alt="Code" src="https://badgen.net/badge/code/sass/purple/?icon=terminal&scale=1.2" />
+  <img alt="Code" src="https://badgen.net/badge/code/graphql/purple/?icon=graphql&scale=1.2" />
   <img alt="GitHub commits" src="https://badgen.net/github/commits/xdebbie/portfolio-hannah-senesh/?color=2de2e6&icon=git&scale=1.2" />
   <img alt="GitHub last commit" src="https://badgen.net/github/last-commit/xdebbie/portfolio-hannah-senesh/?color=2de2e6&icon=git&scale=1.2" />
   <img alt="GitHub open issues" src="https://badgen.net/github/open-issues/xdebbie/portfolio-hannah-senesh/?color=ff9800&icon=git&scale=1.2" />
