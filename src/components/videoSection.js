@@ -5,8 +5,8 @@ const VideoSection = () => {
         <div className="video-section">
             <div className="container">
                 <div className="video-player">
-                    <video controls src="../videos/hardtimes.mp4" type="video/mp4" />
-                    <video controls src="../videos/lana.mp4" type="video/mp4" />
+                    <video poster="https://i.imgur.com/vxjDVxA.mp4" controls type="video/mp4" src="https://i.imgur.com/vxjDVxA.mp4" />
+                    <video poster="https://i.imgur.com/l9WIOKY.mp4" controls type="video/mp4" src="https://i.imgur.com/l9WIOKY.mp4" />
                 </div>
                 
                 <div className="video-content">
