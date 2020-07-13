@@ -18,7 +18,7 @@ const useGallery = () => {
 
   return data.allFile.nodes.map(node => ({
     ...node.childImageSharp,
-    id: node.id,
+      id: node.id,
   }))
 }
 
