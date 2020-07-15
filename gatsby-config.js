@@ -1,5 +1,3 @@
-require("dotenv/config")
-require("./src/components/map")
 module.exports = {
   siteMetadata: {
     title: `Gatsby Portfolio`,

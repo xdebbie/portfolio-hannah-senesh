@@ -10,6 +10,7 @@ const Gallery = () => {
       {images.map(({ id, fluid, description }) => (
         <Img key={id} fluid={fluid} />
       ))}
+      {/* 
       <p className="gallery-description img1">
         This is the laundry description
       </p>
@@ -30,6 +31,7 @@ const Gallery = () => {
       <p className="gallery-description img12">
         This is the twelfth description
       </p>
+      */}
     </div>
   )
 }
