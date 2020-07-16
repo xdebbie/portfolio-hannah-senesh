@@ -62,7 +62,7 @@ export default function Map() {
       <div style={{ width: "800px", height: "400px" }}>
         <WrappedMap
           isMarkerShown
-          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.GATSBY_GOOGLE_KEY}`}
+          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.GOOGLE_KEY}`}
           loadingElement={<div style={{ height: "400px" }} />}
           containerElement={<div style={{ height: "400px" }} />}
           mapElement={<div style={{ height: "400px" }} />}

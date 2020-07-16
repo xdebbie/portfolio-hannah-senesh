@@ -40,7 +40,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-env-variables`,
       options: {
-        allowList: ["GATSBY_GOOGLE_KEY"],
+        allowList: ["GOOGLE_KEY"],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
