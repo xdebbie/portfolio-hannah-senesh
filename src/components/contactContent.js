@@ -13,8 +13,14 @@ const Contact = () => {
             Utgivare <span>publish@hannahsenesh.com</span>
           </p>
           <div className="address">
-            <p>Drottninggatan 85, 111 61</p>
-            <p>Stockholm, Sverige</p>
+            <div>
+              <p>Drottninggatan 85, 111 61</p>
+              <p>Stockholm, Sverige</p>
+            </div>
+            <div>
+              <p>Kungsklippan 3, 11224</p>
+              <p>Stockholm, Sverige</p>
+            </div>
             {/* ** alternative embedded map! **
             <div className="google-map-code">
               <iframe

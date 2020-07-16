@@ -10,61 +10,29 @@
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 960,
-        "FACILITYID": 28014,
-        "NAME": "Bearbrook Skateboard Park",
-        "NAME_FR": "Planchodrome Bearbrook",
-        "ADDRESS": "8720 Russell Road",
-        "ADDRESS_FR": "8720, chemin Russell",
-        "FACILITY_T": "flat",
-        "FACILITY_1": "plat",
-        "ACCESSCTRL": "no/non",
-        "ACCESSIBLE": "no/non",
-        "OPEN": null,
-        "NOTES": "Outdoor",
-        "MODIFIED_D": "2018/01/18",
-        "CREATED_DA": null,
-        "FACILITY": "Neighbourhood : smaller size facility to service population of 10,000 or less",
-        "FACILITY_F": "De voisinage : petite installation assurant des services à 10 000 résidents ou moins.",
-        "DESCRIPTIO": "Flat asphalt surface, 5 components",
-        "DESCRIPT_1": "Surface d'asphalte plane, 5 modules",
-        "PICTURE_LI": null,
-        "PICTURE_DE": null,
-        "PICTURE__1": null
+        "OFFICE_ID": "002",
+        "NAME": "Studio 02 - Kungsklippan",
+        "ADDRESS": "Kungsklippan 3, 11224 Stockholm, Sverige",
+        "NOTES": "Indoor",
+        "FACILITY": "80sqm of studio area, make-up room, hairdresser, wardrobe"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [18.05, 59.33]
+        "coordinates": [59.33, 18.05]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "PARK_ID": 2278,
-        "FACILITYID": 49211,
-        "NAME": "Vista Skateboard Park",
-        "NAME_FR": "Planchodrome Vista",
-        "ADDRESS": "720 Vistapark Drive",
-        "ADDRESS_FR": "720, promenade Vistapark",
-        "FACILITY_T": "flat",
-        "FACILITY_1": "plat",
-        "ACCESSCTRL": "no/non",
-        "ACCESSIBLE": "yes/oui",
-        "OPEN": null,
-        "NOTES": "Outdoor",
-        "MODIFIED_D": "2018/11/29",
-        "CREATED_DA": "2018/06/22",
-        "FACILITY": "Neighbourhood : smaller size facility to service population of 10,000 or less",
-        "FACILITY_F": "De voisinage : petite installation assurant des services à 10 000 résidents ou moins.",
-        "DESCRIPTIO": "Flat surface, 5 components",
-        "DESCRIPT_1": "Surface plane, 5 modules",
-        "PICTURE_LI": null,
-        "PICTURE_DE": null,
-        "PICTURE__1": null
+        "OFFICE_ID": "001",
+        "NAME": "Studio 01 - Drottninggatan",
+        "ADDRESS": "Drottninggatan 85, 111 61 Stockholm, Sverige",
+        "NOTES": "Indoor + outdoor",
+        "FACILITY": "140sqm of indoor studio area, 40sqm of outdoor studio area, make-up room, hairdresser, wardrobe"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [18.05685, 59.33837]
+        "coordinates": [59.33837, 18.05685]
       }
     }
   ]

@@ -14,15 +14,15 @@ function GoogleMaps() {
   return (
     <GoogleMap
       defaultZoom={13}
-      defaultCenter={{ lat: 59.33837, lng: 18.05685 }}
+      defaultCenter={{ lat: 59.335, lng: 18.06 }}
       defaultOptions={{ styles: mapStyles }}
     >
       {markerData.features.map(office => (
         <Marker
-          key={office.properties.PARK_ID}
+          key={office.properties.OFFICE_ID}
           position={{
-            lat: office.geometry.coordinates[1],
-            lng: office.geometry.coordinates[0],
+            lat: office.geometry.coordinates[0],
+            lng: office.geometry.coordinates[1],
           }}
           onClick={() => {
             setSelectedMarker(office)
@@ -37,16 +37,18 @@ function GoogleMaps() {
       {selectedMarker && (
         <InfoWindow
           position={{
-            lat: selectedMarker.geometry.coordinates[1],
-            lng: selectedMarker.geometry.coordinates[0],
+            lat: selectedMarker.geometry.coordinates[0],
+            lng: selectedMarker.geometry.coordinates[1],
           }}
           onCloseClick={() => {
             setSelectedMarker(null)
           }}
         >
           <div>
-            <h2>{selectedMarker.properties.NAME}</h2>
-            <p>{selectedMarker.properties.DESCRIPTIO}</p>
+            <h3>{selectedMarker.properties.NAME}</h3>
+            <p>{selectedMarker.properties.ADDRESS}</p>
+            <p>{selectedMarker.properties.NOTES}</p>
+            <p>{selectedMarker.properties.FACILITY}</p>
           </div>
         </InfoWindow>
       )}
