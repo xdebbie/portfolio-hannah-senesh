@@ -24,7 +24,8 @@
     "react-google-maps": "^9.4.5",
     "react-helmet": "^6.1.0",
     "react-infinite-scroll-component": "^5.0.5",
-    "recompose": "^0.30.0"
+    "recompose": "^0.30.0",
+    "snyk": "^1.362.0"
   },
   "devDependencies": {
     "prettier": "2.0.5"
@@ -40,7 +41,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -48,5 +51,6 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "snyk": true
 }
