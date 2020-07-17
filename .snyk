@@ -1320,3 +1320,5 @@ patch:
         patched: '2020-07-08T10:24:52.942Z'
     - gatsby > gatsby-cli > gatsby-recipes > @mdx-js/runtime > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2020-07-08T10:24:52.942Z'
+    - react-google-maps > lodash:
+        patched: '2020-07-16T07:17:31.579Z'
