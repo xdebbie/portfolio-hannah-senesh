@@ -6,7 +6,7 @@
   "author": "xdebbie <deh@live.in>",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "gatsby": "^2.23.12",
+    "gatsby": "^2.31.0",
     "gatsby-image": "^2.4.13",
     "gatsby-plugin-config": "^1.0.7",
     "gatsby-plugin-env-variables": "^2.0.0",
